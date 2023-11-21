@@ -1,6 +1,7 @@
 import { cards } from "../lib/data";
 import Card from "../ui/dashboard/card/card";
 import styles from "../ui/dashboard/dashboard.module.css";
+import Transactions from "../ui/dashboard/transactions/transactions";
 
 const Dashboard = () => {
   return (
@@ -11,6 +12,7 @@ const Dashboard = () => {
             <Card item={item} key={item.id} />
           ))}
         </div>
+        <Transactions />
       </div>
     </div>
   );
