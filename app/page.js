@@ -1,9 +1,10 @@
 import React from 'react'
+import Home from './ui/home/home'
 
-function Home() {
+function Landing() {
   return (
-    <div>Home</div>
+    <Home />
   )
 }
 
-export default Home
+export default Landing
